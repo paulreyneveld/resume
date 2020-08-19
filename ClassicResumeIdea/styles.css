@@ -1,0 +1,89 @@
+body {
+    background-color: #ffffff;
+    width: 70%;
+    margin: auto;
+    line-height: 1.25em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+} 
+h3 {
+    padding: 4px 0 4px 0;
+    margin: 0;
+    text-align: center;
+    background-color: #9fcc93;
+    border-radius: 5px;
+    font-weight: 100;
+}
+h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+}
+
+address {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 15px;
+    margin: 0;
+}
+main {
+    margin: auto;
+    background-color: white;
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin: 5px 0;
+    list-style-type: dash;
+}
+
+#contact {
+    margin: 0;
+}
+
+.objectives {
+}
+
+.skills {
+    margin: auto;
+}
+.techskills,
+.softskills {
+    width: 45%;
+}
+
+.techskills li,
+.softskills li {
+    text-align: left;
+}
+
+.techskills {
+    float: left;
+}
+
+.softskills {
+    float: right;
+}
+
+/*** Float clear fix ***/
+
+.skills:after {
+    content: "";
+    display: table;
+    clear: both;
+}
