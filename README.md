@@ -1,3 +1,3 @@
-# Static Resume 
+# Static Resumes
 
-A static representation of my current resume using HTML/CSS
+Various resume ideas
