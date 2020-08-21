@@ -17,7 +17,7 @@ h2 {
 
 li {
     padding-bottom: 1em;
-    padding-left: 1.25em;
+    padding-left: 1em;
 }
 
 header {
@@ -34,12 +34,22 @@ header {
     margin: auto;
     height: 800px;
     font-family: 'Roboto', sans-serif;
-
+    font-weight: bold;
 }
 
 .row h3 {
     padding: 1em 0 1em 0;
-    font-size: 1.1em;
+    font-size: 1.35em;
+}
+
+.row h4 {
+    padding: 0 0 1em 0;
+}
+
+.row p,
+.row li {
+    font-size: 0.95em;
+    line-height: 1.5em;
 }
 
 .left {
@@ -53,13 +63,21 @@ header {
     flex: 2;
     padding-left: 1em;
     padding-right: 1em;
-    background-color: #247BA0;
+    background-color: #d9e9f5;
 }
 
 .skills {
     display: flex;
+    margin-left: 3em;
 }
 
+.skills ul {
+    margin-right: 1em;
+}
 .skills li {
-    padding: 0;
+    padding-bottom: 0.45em;
+}
+
+.techskills {
+    margin-right: 1em;
 }
